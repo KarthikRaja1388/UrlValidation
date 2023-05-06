@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-width: 550px;
+  min-height: 400px;
+  box-shadow: 0 0 5px rgb(75, 123, 236);
+}
+.form-group {
+  display: flex;
+  gap: 1rem;
+}
+input {
+  border: none;
+  box-shadow: 0 0 2px rgb(209, 216, 224);
+  padding: 0.5rem;
+}
+input:focus {
+  outline: none;
+}
+button {
+  width: 100px;
+  border: none;
+  background-color: rgb(32, 191, 107);
+  cursor: pointer;
+  color: #ffffff;
+}
